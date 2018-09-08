@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Branch.Interview_TestCases.TestCase6_PageLoad"/>
+      <class name="Branch.Interview_TestCases.TestCase2_NameChecks"/>
+      <class name="Branch.Interview_TestCases.TestCase_1_AllEmployees"/>
+      <class name="Branch.Interview_TestCases.TestCase4_ErrorPage"/>
+      <class name="Branch.Interview_TestCases.TestCase3_DeptCheck"/>
+      <class name="Branch.Interview_TestCases.TestCase5_TwitterPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

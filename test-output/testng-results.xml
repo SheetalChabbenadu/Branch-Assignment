@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="441689" started-at="2018-09-08T13:04:37Z" finished-at="2018-09-08T13:11:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="441689" started-at="2018-09-08T13:04:37Z" finished-at="2018-09-08T13:11:59Z">
+      <class name="Branch.Interview_TestCases.TestCase6_PageLoad">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Branch.Interview_TestCases.TestCase6_PageLoad@556333]" name="preCondition" is-config="true" duration-ms="42821" started-at="2018-09-08T13:04:37Z" finished-at="2018-09-08T13:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="PageLoadinSameWindow()[pri:0, instance:Branch.Interview_TestCases.TestCase6_PageLoad@556333]" name="PageLoadinSameWindow" duration-ms="6847" started-at="2018-09-08T13:05:20Z" finished-at="2018-09-08T13:05:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at Branch.Interview_TestCases.TestCase6_PageLoad.PageLoadinSameWindow(TestCase6_PageLoad.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageLoadinSameWindow -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Branch.Interview_TestCases.TestCase6_PageLoad@556333]" name="closeBrowser" is-config="true" duration-ms="999" started-at="2018-09-08T13:05:27Z" finished-at="2018-09-08T13:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Branch.Interview_TestCases.TestCase6_PageLoad -->
+      <class name="Branch.Interview_TestCases.TestCase5_TwitterPage">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Branch.Interview_TestCases.TestCase5_TwitterPage@7aecef]" name="preCondition" is-config="true" duration-ms="40644" started-at="2018-09-08T13:11:04Z" finished-at="2018-09-08T13:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="TwitterPage()[pri:0, instance:Branch.Interview_TestCases.TestCase5_TwitterPage@7aecef]" name="TwitterPage" duration-ms="13395" started-at="2018-09-08T13:11:45Z" finished-at="2018-09-08T13:11:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at Branch.Interview_TestCases.TestCase5_TwitterPage.TwitterPage(TestCase5_TwitterPage.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwitterPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Branch.Interview_TestCases.TestCase5_TwitterPage@7aecef]" name="closeBrowser" is-config="true" duration-ms="860" started-at="2018-09-08T13:11:58Z" finished-at="2018-09-08T13:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Branch.Interview_TestCases.TestCase5_TwitterPage -->
+      <class name="Branch.Interview_TestCases.TestCase3_DeptCheck">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Branch.Interview_TestCases.TestCase3_DeptCheck@1fc5fb8]" name="preCondition" is-config="true" duration-ms="39991" started-at="2018-09-08T13:09:25Z" finished-at="2018-09-08T13:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="AllEmployees()[pri:0, instance:Branch.Interview_TestCases.TestCase3_DeptCheck@1fc5fb8]" name="AllEmployees" duration-ms="58496" started-at="2018-09-08T13:10:05Z" finished-at="2018-09-08T13:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllEmployees -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Branch.Interview_TestCases.TestCase3_DeptCheck@1fc5fb8]" name="closeBrowser" is-config="true" duration-ms="875" started-at="2018-09-08T13:11:03Z" finished-at="2018-09-08T13:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Branch.Interview_TestCases.TestCase3_DeptCheck -->
+      <class name="Branch.Interview_TestCases.TestCase2_NameChecks">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Branch.Interview_TestCases.TestCase2_NameChecks@170d1b1]" name="preCondition" is-config="true" duration-ms="39799" started-at="2018-09-08T13:05:28Z" finished-at="2018-09-08T13:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="AllEmployees()[pri:0, instance:Branch.Interview_TestCases.TestCase2_NameChecks@170d1b1]" name="AllEmployees" duration-ms="58790" started-at="2018-09-08T13:06:08Z" finished-at="2018-09-08T13:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllEmployees -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Branch.Interview_TestCases.TestCase2_NameChecks@170d1b1]" name="closeBrowser" is-config="true" duration-ms="1067" started-at="2018-09-08T13:07:07Z" finished-at="2018-09-08T13:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Branch.Interview_TestCases.TestCase2_NameChecks -->
+      <class name="Branch.Interview_TestCases.TestCase4_ErrorPage">
+        <test-method status="PASS" signature="ErrorPageDisplay()[pri:0, instance:Branch.Interview_TestCases.TestCase4_ErrorPage@b1ffe6]" name="ErrorPageDisplay" duration-ms="38381" started-at="2018-09-08T13:08:46Z" finished-at="2018-09-08T13:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorPageDisplay -->
+      </class> <!-- Branch.Interview_TestCases.TestCase4_ErrorPage -->
+      <class name="Branch.Interview_TestCases.TestCase_1_AllEmployees">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Branch.Interview_TestCases.TestCase_1_AllEmployees@742aa2]" name="preCondition" is-config="true" duration-ms="41056" started-at="2018-09-08T13:07:08Z" finished-at="2018-09-08T13:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="AllEmployees()[pri:0, instance:Branch.Interview_TestCases.TestCase_1_AllEmployees@742aa2]" name="AllEmployees" duration-ms="56617" started-at="2018-09-08T13:07:49Z" finished-at="2018-09-08T13:08:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at Branch.Interview_TestCases.TestCase_1_AllEmployees.AllEmployees(TestCase_1_AllEmployees.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllEmployees -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Branch.Interview_TestCases.TestCase_1_AllEmployees@742aa2]" name="closeBrowser" is-config="true" duration-ms="933" started-at="2018-09-08T13:08:46Z" finished-at="2018-09-08T13:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Branch.Interview_TestCases.TestCase_1_AllEmployees -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

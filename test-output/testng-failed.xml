@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Branch.Interview_TestCases.TestCase6_PageLoad">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="PageLoadinSameWindow"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- Branch.Interview_TestCases.TestCase6_PageLoad -->
+      <class name="Branch.Interview_TestCases.TestCase_1_AllEmployees">
+        <methods>
+          <include name="AllEmployees"/>
+          <include name="closeBrowser"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- Branch.Interview_TestCases.TestCase_1_AllEmployees -->
+      <class name="Branch.Interview_TestCases.TestCase5_TwitterPage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="TwitterPage"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- Branch.Interview_TestCases.TestCase5_TwitterPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
